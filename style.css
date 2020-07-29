@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(245,245,245);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(70,70,70);
+}
+
+
+h1 {
+  color: #FA7E61;
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+h2 {
+  color: rgb(40,40,40);
+  font-family: 'Domine', serif;
+}
+
+h3 {
+  color: #EB9486;
+  font-family: 'Domine', serif;
+  margin-top: 0px;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    border: 4px;
+    padding-bottom: 52px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: #46237A;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #9046CF;
+}
+
+
+.icone {
+  font-size: 40px;
+  margin: 10px;
+}
+
+#btn-discover {
+  padding: 10px;
+  background-color: #F6D0CA;
+  margin: 50px auto;
+  color: #46237A;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(220, 220, 220);
+  text-decoration: none;
+}
+
+#btn-discover:hover{
+  padding: 10px;
+  background-color: #FCEFEE;
+  margin: 50px auto;
+  border-radius: 5px;
+  color: #9046CF;
+  box-shadow: 2px 2px 2px rgb(220, 220, 220);
+  text-decoration: none;
+}
+
+.card p {
+  margin-bottom: 40px;
+}
+
+.container {
+  margin: 0px auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
